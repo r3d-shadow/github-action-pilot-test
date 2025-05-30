@@ -6,9 +6,9 @@
           "files": {
             "override-example.yml.j2": {
               "path": ".github/workflows/git-pilot/override-example.yml",
-              "sha": "abc1247b5f842e4d2ceecc3b6c241ed50966203d52689b9a89bde68ce4aa325e",
-              "rendered": "name: scan\n\non:\n  push:\n    branches:\n      - \"stage\"\n\njobs:\n  sast:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Hello from stage!\n        run: echo \"Hello10 sast!\"\n        env:\n          SUPER_SECRET: ${{ secrets.SuperSecret }}",
-              "updated_at": "2025-05-30T07:23:24Z"
+              "sha": "73606e501a4b893f2e13b458bd93c9060c8b50452a81dea980ebbd1a14d962e3",
+              "rendered": "name: scan\n\non:\n  push:\n    branches:\n      - \"stage\"\n\njobs:\n  sast:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Hello from stage!\n        run: echo \"Hello13 sast!\"\n        env:\n          SUPER_SECRET: ${{ secrets.SuperSecret }}",
+              "updated_at": "2025-05-30T14:37:38Z"
             }
           }
         }
@@ -26,9 +26,9 @@
             },
             "override-example.yml.j2": {
               "path": ".github/workflows/override-example.yml",
-              "sha": "74cafad8fc1d7b6bb3dcd3ad456605900ccd19b63e023532a7fed42b99ac6d7e",
-              "rendered": "name: scan\n\non:\n  push:\n    branches:\n      - \"test\"\n\njobs:\n  container_scan1:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Hello from test!\n        run: echo \"Hello10 container_scan1!\"\n        env:\n          SUPER_SECRET: ${{ secrets.SuperSecret }}",
-              "updated_at": "2025-05-30T07:23:22Z"
+              "sha": "3f5d16f97917391533b34c7a870624f246e3cf47487f5166fe205c692bfa30e3",
+              "rendered": "name: scan\n\non:\n  push:\n    branches:\n      - \"test\"\n\njobs:\n  container_scan1:\n    runs-on: ubuntu-latest\n    steps:\n      - name: Hello from test!\n        run: echo \"Hello13 container_scan1!\"\n        env:\n          SUPER_SECRET: ${{ secrets.SuperSecret }}",
+              "updated_at": "2025-05-30T14:37:37Z"
             }
           }
         }
