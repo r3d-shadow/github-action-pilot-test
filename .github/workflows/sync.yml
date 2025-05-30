@@ -22,7 +22,7 @@ jobs:
           token: ${{ secrets.GIT_TOKEN }}
           template_dir: templates
           state_file: templates/.git-pilot-state.json
-          values: templates/values.yaml
+          values: templates/values.yml
 
       - name: Commit updated state file
         run: |
